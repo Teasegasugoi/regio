@@ -24,7 +24,7 @@ bool is_ok(long long num)
 long long binary_search()
 {
     long long left = -1;
-    long long right = 1000000000;
+    long long right = 1000000000 + 1;
 
     while (right - left > 1)
     {
