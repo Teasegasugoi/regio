@@ -21,6 +21,7 @@ int main()
     int right = 9;
 
     // ここを自分で実装してみよう!
+
     // left <= right の間 1 ~ 3 を繰り返す
     // 1. left と right の 真ん中の数字 mid を求める (割り切れない場合は切り捨てでok)
     // 2. A[mid] と K を比較
