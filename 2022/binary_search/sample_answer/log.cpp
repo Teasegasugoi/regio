@@ -15,7 +15,8 @@ bool check(long long score)
 {
     long long sum = score * (score + 1) / 2;
 
-    if (sum <= n + 1) {
+    if (sum <= n + 1)
+    {
         return true;
     }
     return false;
@@ -41,6 +42,6 @@ int main()
             ng = mid;
         }
     }
-    cout << n - ok + 1<< endl;
+    cout << n - ok + 1 << endl;
     return 0;
 }
